@@ -1,0 +1,232 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+td ul {
+  padding: 5px;
+}
+td li {
+  padding: 5px;
+}
+table {
+  padding: 25px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  background-color: #eee;
+
+  border-top: 2px solid #000000e9;
+  border-bottom: 2px solid #000000e9;
+}
+
+.dikontak {
+  padding: 5%;
+  background-color: #ddd;
+}
+.button {
+  padding: 8px;
+  border: black solid 1px;
+  background-color: black;
+  border-radius: 5px;
+  width: 8%;
+  color: #fff;
+}
+
+.memasak {
+  float: left;
+}
+
+.button:hover {
+  padding: 8px;
+  border: black solid 1px;
+  background-color: #eee;
+  border-radius: 5px;
+  width: 10%;
+  color: black;
+  cursor: pointer;
+}
+
+body {
+  background: url(background.png) no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.centercon {
+  margin: 0 auto;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.header {
+  background-color: rgb(238, 238, 238);
+  min-height: 50px;
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.content {
+  background-color: #ddd;
+  min-height: 500px;
+  padding-bottom: 10%;
+  padding-top: 3%;
+}
+
+.footer {
+  background-color: #ccc;
+  min-height: 50px;
+}
+.header {
+  background-color: #eee;
+  min-height: 50px;
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a:hover {
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0.963);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 110%;
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: black;
+}
+
+.thumbnail {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+
+  float: left;
+  margin: 21px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+}
+
+.thumbnail:hover {
+  background-color: rgba(0, 0, 0, 0.859);
+  color: #eee;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.content {
+  background-color: #ddd;
+  min-height: 500px;
+  overflow: auto;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.788);
+  min-height: 50px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: #fff;
+}
+
+ul.submenu {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+ul.submenu li {
+  display: block;
+  margin: 10px;
+}
+
+ul.submenu li a {
+  display: block;
+  padding: 5px 10px;
+}
+
+ul.submenu {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  text-align: left;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul.submenu {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  text-align: left;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: none;
+}
+
+.menu ul li:hover ul.submenu {
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 167%;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  font-family: "Raleway", sans-serif;
+  z-index: -1;
+  width: 100%;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  background-color: #aaa;
+  background-image: url(2193315.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: right;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.jumbotron h2,
+.jumbotron p {
+  position: relative;
+}
